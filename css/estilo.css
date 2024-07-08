@@ -26,8 +26,8 @@ html, body{
 }
 
 .carta{
-    width: 20rem;
-    height: 26rem;
+    width: 16rem;
+    height: 24rem;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -37,8 +37,8 @@ html, body{
 
 .btn-girar{
     margin: 0.5rem;
-    width: 6rem;
-    height: 6rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
     background-color: #E88D67;
     cursor: pointer;
@@ -48,7 +48,7 @@ html, body{
 
 }
 .imagen{
-    width: 18rem;
+    width: 17rem;
     padding: 20px;
 }
 
