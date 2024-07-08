@@ -13,7 +13,8 @@ html, body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #005C78
+    background-color: #005C78;
+    overflow: hidden;
 }
 
 .cartas-contenedor{
@@ -29,8 +30,8 @@ html, body{
 }
 
 .carta{
-    width: 12rem;
-    height: 18rem;
+    width: 18rem;
+    height: 25rem;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -40,8 +41,8 @@ html, body{
 
 .btn-girar{
     margin: 0.5rem;
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
     background-color: #E88D67;
     cursor: pointer;
@@ -51,22 +52,25 @@ html, body{
 
 }
 .imagen{
-    width: 10rem;
+    width: 15rem;
     padding: 20px;
 }
 
 @media only screen and (min-width: 1024px) {
-   h2{
-    font-size: 3rem;
-   }
+
     .carta{
-        width: 18rem;
-        height: 24rem;
+        width: 25rem;
+        height: 30rem;
         border-radius: 20px;
         display: flex;
         align-items: center;
         justify-content: center;
         background-color: white;
+    }
+
+    .imagen{
+        width: 20rem;
+        padding: 20px;
     }
     
 }
