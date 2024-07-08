@@ -2,36 +2,32 @@ html, body{
     margin: 0;
     padding: 0;
 }
- h2{
-    color: #F3F7EC;
-    font-weight: bold;
-    font-family:'Courier New', Courier, monospace;
- }
+
 .contenedor{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 100vh;
     background-color: #005C78;
     overflow: hidden;
 }
 
 .cartas-contenedor{
-    width: 80%;
-    height: 70%;
+    width: 100%;
     background-color: #005C78;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 2rem;
     /*overflow: hidden;*/
 }
 
 .carta{
-    width: 18rem;
-    height: 25rem;
+    width: 20rem;
+    height: 26rem;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -41,8 +37,8 @@ html, body{
 
 .btn-girar{
     margin: 0.5rem;
-    width: 4rem;
-    height: 4rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 50%;
     background-color: #E88D67;
     cursor: pointer;
@@ -52,15 +48,15 @@ html, body{
 
 }
 .imagen{
-    width: 15rem;
+    width: 18rem;
     padding: 20px;
 }
 
 @media only screen and (min-width: 1024px) {
 
     .carta{
-        width: 25rem;
-        height: 30rem;
+        width: 30rem;
+        height: 34rem;
         border-radius: 20px;
         display: flex;
         align-items: center;
@@ -69,8 +65,20 @@ html, body{
     }
 
     .imagen{
-        width: 20rem;
+        width: 24rem;
         padding: 20px;
+    }
+    .btn-girar{
+        margin: 0.5rem;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        background-color: #E88D67;
+        cursor: pointer;
+        color: #F3F7EC;
+        font-weight: bold;
+        border: 4px solid #F3F7EC ;
+    
     }
     
 }
